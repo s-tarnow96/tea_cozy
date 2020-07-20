@@ -1,0 +1,131 @@
+
+/* Header */
+    header {
+        height: 69px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        border-bottom: solid 1px seashell;
+        border-width: 100%;
+    }
+
+    header img {
+        height: 50px;
+        margin: 10px;
+    }
+
+    header nav {
+        right: 10px;
+        top: 2.5%;
+        position: absolute;
+    }
+
+    header nav a {
+        color: seashell;
+        margin: 10px;
+    }
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#featuredtea img {
+    width: 300px;
+    height: 200px;
+}
+
+#mission {
+    background-image: url("img-mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    background-position: center top;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#mission div {
+    background-color: black;
+    width: 100%;
+    position: relative;
+    top: 40%;
+}
+
+#featuredtea {
+    text-align: center;
+    padding: 0px;
+    margin-bottom: 30px;
+}
+
+#featuredtea div {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+#featuredtea figure {
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+#featuredtea figcaption {
+    margin: 0px 10px;
+    padding: 0px;
+}
+
+#locations {
+    background-image: url("img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+#locations h2 {
+    margin: 15px auto;
+}
+
+#locations div {
+    display: flex;
+    flex-direction: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    vertical-align: middle;
+    position: relative;
+    padding: 0 20px;
+    margin: 10px;
+}
+
+#locations div div {
+    position: static;
+    text-align: center;
+    justify-self: center;
+    flex-direction: column;
+    margin: 20px 20px;
+    width: 300px;
+    background-color: black;
+}
+
+#contact {
+    text-align: center;
+    height: 200px;
+}
+
+footer h5 {
+    margin-left: 20px;
+}
